@@ -1,0 +1,15 @@
+@import"colors";
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $second;
+
+    >.carousel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:100vh;
+        width: 75vw;
+    }
+}
